@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Florian Faltermeier
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Florian
+last_name: Faltermeier
 
 # Status emoji
 status:
@@ -20,69 +20,128 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Adventurer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Technical University of Munich
+    url: https://www.tum.de
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+#  - icon: at-symbol
+#    url: 'mailto:your-email@example.com'
+#    label: E-mail Me
+#  - icon: brands/x
+#    url: https://twitter.com/GetResearchDev
+#  - icon: brands/instagram
+#    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/florifal
   - icon: brands/linkedin
     url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+#  - icon: academicons/google-scholar
+#    url: https://scholar.google.com/
   - icon: academicons/orcid
     url: https://orcid.org/
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Discovering
+  - Learning
+  - Developing
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - institution: Technical University of Munich
+    area: Environmental Engineering
+    degree: M. Sc.
+    start_date: 2020-04
+    end_date: 2024-10
+    summary: "Geoinformatics & 3D city modeling, natural hazards & risk analysis, hydrology & remote sensing"
+    highlights:
+      - "Current grade: 1.7"
+      - "Study project (geoinformatics): #lb “Improving CNN Roof Segment Detection in Aerial Imagery by Dataset Extension Using 3D City Models” (grade: 1.0)"
+      - "Master's thesis (geoinformatics): #lb “The Impact of Point Cloud Density and Accuracy on the Quality of 3D Building Reconstruction” (grade: tbd)"
+  
+  - institution: Technical University of Munich
+    area: Engineering Ecology (no graduation)
+    degree: M. Sc.
+    start_date: 2018-10
+    end_date: 2020-03
+    summary: "Climate and land use change, ecosystem modelling and management"
+    highlights:
+      - "Average grade: 1.4"
+  
+  - institution: "University of Tübingen"
+    area: Geoecology
+    degree: B. Sc.
+    start_date: 2014-10
+    end_date: 2018-02
+    summary: "Biogeochemistry, climatology, hydrology, geology, ecology, environmental systems analysis and modelling"
+    highlights:
+      - "Final grade: 1.2"
+      - "Bachelor's thesis (hydrogeochemistry): “Experimental Investigation of Stream-Groundwater Interaction Using Salt Tracer Tests” (grade: 1.0)"
+  
+  - institution: "Orientation phase"
+    area: ""
+    start_date: 2013-10
+    end_date: 2014-09
+    highlights:
+      - "Internships, e.g. hospital Barmherzige Brüder, Regensburg (1 month)"
+      - "Stay abroad (working holiday) in New Zealand (6 months)"
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
+  - institution: "University of Regensburg"
+    area: Physics (no graduation)
+    degree: B. Sc.
+    start_date: 2012-04
+    end_date: 2013-09
+  
+  - institution: "Orientation phase"
+    area: ""
+    start_date: 2011-06
+    end_date: 2012-03
+    highlights:
+      - "Full-time temporary jobs (4 months)"
+      - "Stay abroad (travelling) in Southeast Asia (3 months)"
+  
+  - institution: "Gymnasium Vilshofen an der Donau"
+    area: "General university entrance qualification"
+    end_date: 2011-05
+    highlights:
+      - "Final grade: 1.3"
+
+  # - area: PhD Artificial Intelligence
+  #   institution: Stanford University
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+  #   button:
+  #     text: 'Read Thesis'
+  #     url: 'https://example.com'
+  # - area: MEng Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.8/4.0
+
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  # - area: BSc Artificial Intelligence
+  #   institution: Massachusetts Institute of Technology
+  #   date_start: 2016-01-01
+  #   date_end: 2020-12-31
+  #   summary: |
+  #     GPA: 3.4/4.0
       
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     Courses included:
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
+
 work:
   - position: Director of Cloud Infrastructure
     company_name: GenCoin
